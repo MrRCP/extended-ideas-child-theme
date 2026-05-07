@@ -112,7 +112,7 @@
 		wrap.className = PLACEHOLDER_CLASS;
 		wrap.setAttribute('role', 'region');
 		wrap.setAttribute('aria-label', 'Cookie consent required');
-		wrap.innerHTML = '<p>Calendly is blocked until you accept the relevant cookies.</p><p>Use the button below to open cookie settings.</p><button type="button" class="tr-consent-btn">Open cookie settings</button>';
+		wrap.innerHTML = '<p>Calendly is blocked until you accept the relevant cookies.</p><p>Use the button below to open cookie settings.</p><button type="button" class="tr-consent-btn btn--primary">Open cookie settings</button>';
 
 		var btn = wrap.querySelector('.tr-consent-btn');
 		if (btn) btn.addEventListener('click', openCookieSettings);
